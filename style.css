@@ -1,0 +1,422 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f1dfd1
+}
+
+h1{
+    color: rgb(180, 44, 44);
+    font-size: 120px;
+    text-align: right;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    font-family: cursive;
+}
+#navbar{
+    color: rgb(180, 44, 44);
+    height: 80px;
+    background-color: #f1dfd1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-right: 100px;
+}
+#Uni{
+    background-image:url('Uni.png') ;
+    height: 50px;
+    width: 160px;
+    background-size: cover;
+    border: none;
+}
+#line{
+    height: 5px;
+    width:100%;
+    position: fixed;
+    background-color: rgb(180, 44, 44);
+    top: 80px; 
+    left: 0;
+    z-index: 999;
+}
+a{
+    margin-right: 180px;
+    text-decoration: none;
+    color: rgb(180, 44, 44);
+    font-family: "Times New Roman", Times, serif;
+    
+}
+a:hover{
+    color:rgb(1, 11, 127);
+    
+}
+#home {
+    display: flex;
+    justify-content: space-between; /* Space between image and text */
+    align-items: center; /* Vertically align them */
+    padding: 100px; /* Add some space around */
+    margin-bottom: 150px; /* Space below navbar */
+    gap: 50px; /* Optional: spacing between image and text */
+}
+
+.hero-image {
+    max-width: 40%;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* Remove margin-top here */
+}
+
+#home-text {
+    max-width: 50%; /* Adjust width to balance with image */
+    text-align: left;
+}
+
+#home-text h1 {
+    color: rgb(180, 44, 44);
+    font-size: 80px;
+    font-family: cursive;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+#home-text p {
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    color: #333;
+}
+
+#Explore {
+    height: 60px;
+    width: 250px;
+    background-color: rgb(1, 11, 127);
+    color: azure;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#Explore:hover {
+    background-color: rgb(0, 0, 90);
+    transform: scale(1.05);
+}
+#disco {
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 900px;
+    margin-top: 400px;
+    background-image: url(Disco.png);
+    background-size: cover;
+}
+.events-section, .calendar-section, .clubs-section {
+    text-align: center;
+}
+.events-section,.calendar-section{
+    margin-bottom: 200px;
+}
+.event-card {
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #A93A33;
+    color: #fff5e6;
+    border-radius: 8px;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+.event-box {
+    width: 30%;
+    background: #A93A33;
+    color: #fff5e6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.event-box h2 {
+    text-align: center;
+}
+
+.event-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.event-box li {
+    margin-bottom: 1rem;
+}
+.event-card {
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #A93A33;
+    color: #fff5e6;
+    border-radius: 8px;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; /* Ensures it spans the full viewport width */
+    background-color: rgb(180, 44, 44);
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+    border: none;
+    
+
+}
+
+
+#A{
+    height: 200px;
+    width: 200px;
+    background-image: url('Logo1.png');
+    background-size: 110%;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: 200px;
+    border: none;
+}
+#B{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image:url('8Counts.jpeg');
+    background-size: 110%;
+    background-position: center;
+    margin-right: 50px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    border: none;
+    
+}
+#C{
+    height: 200px;
+    width: 200px;
+    background-image: url('Echo.jpeg');
+    background-size: 110%;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    border: none;
+    
+}
+#D{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-image: url("Synolo.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    border: none;
+}
+#E{
+    height: 200px;
+    width: 200px;
+    border-radius:  50%;
+    margin-right: 20px;
+    background-image: url("Mastershot.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    border: none;
+
+}
+#F{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Erudite.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-bottom: 60px;
+    border: none;
+}
+#G{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Qubit.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    margin-left: 150px;
+    border: none;
+}
+#H{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Mathsoc.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    border: none;
+}
+#I{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Insights.jpeg");
+    background-size: 110%;
+    background-position: center;
+    margin-bottom: 60px;
+    border: none;
+}
+#J{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Outreach.jpeg");
+    background-size: 110%;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    background-position: center;
+    border: none;
+}
+#K{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Sakhi.jpeg");
+    background-size: 115%;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    background-position: center;
+    border: none;
+}
+#L{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("Aeforia.jpeg");
+    background-size: 130%;
+    margin-bottom: 60px;
+    background-position: center;
+    border: none;
+    
+}
+
+/* Enigma page*/
+.club-name {
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.club-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.club-content {
+    width: 60%;
+    text-align: left;
+}
+
+.club-content h1 {
+    font-size: 3rem;
+    text-align: left;
+    color: #A93A33;
+}
+
+.event-box {
+    width: 30%;
+    background: #A93A33;
+    color: #fff5e6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.event-box h2 {
+    text-align: center;
+}
+
+.event-box ul {
+    list-style: none;
+    padding-top: 100px;
+}
+
+.event-box li {
+    margin-bottom: 1rem;
+}
+
+.past-events {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.past-events h2 {
+    color: #A93A33;
+}
+
+.past-events p {
+    background: #ffd1c1;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: #A93A33;
+    color: #fff5e6;
+}
+.navbar {
+    background: #A93A33;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff5e6;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #ffd1c1;
+}
